@@ -9,7 +9,7 @@ import gsap from "gsap";
 const Navbar = () => {
     const navContainerRef = useRef(null)
 
-    const navItems = ["Nexus", "Vault", "Prologue", "About", "Contact"];
+    const navItems = ["About", "Prologue", "Blades", "Tista", "Contact"];
 
     const audioElementRef = useRef(null)
 
@@ -70,7 +70,7 @@ const Navbar = () => {
         <header className="absolute top-1/2 w-full -translate-y-1/2">
             <nav className="flex w-full items-center justify-between p-4">
                 <div className="flex items-center gap-7">
-                    <img src="/img/logo.png" alt="logo" className="w-10"/>
+                    <img src="/img/anya.jpeg" alt="logo" className="w-10"/>
 
                     <Button
                         id="products-button"

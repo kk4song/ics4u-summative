@@ -31,7 +31,7 @@ const About = () => {
         <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
         
             <p className="font-general text-sm uppercase md:text-[10px]">
-          Welcome to Zentry
+          Welcome to Spy Family
         </p>
 
             <AnimatedTitle
@@ -39,10 +39,10 @@ const About = () => {
           containerClass="mt-5 !text-black text-center"
         />
             <div className="about-subtext">
-                <p>The Game of Games begins-your life, now an epic MMORPG</p>
+                <p>A spy, an assassin, and a telepath</p>
             
             <p>
-                Zentry Units every player from countless games and platforms
+                For anyone who enjoys a story
             </p>
             </div>
         </div>
