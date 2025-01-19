@@ -62,7 +62,7 @@ const Features = () => {
   return (
     <section className="bg-black pb-52">
         <div className="container mx-auto px-3  md:px-10">
-            <div className="px-5 py-32">
+            <div id="tista" className="px-5 py-32">
                 <p className="font-circular-web text-lg text-blue-50">
                     Into the Forger World
                 </p>
@@ -74,7 +74,7 @@ const Features = () => {
             </div>
 
 
-            <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflowh-hidden rounded-md md:h-[65vh]">
+            <BentoTilt id="blades" className="border-hsla relative mb-7 h-96 w-full overflowh-hidden rounded-md md:h-[65vh]">
                 <BentoCard 
                 src="videos/feature-1.mp4"
                 title={
@@ -85,7 +85,7 @@ const Features = () => {
                 
             </BentoTilt>
 
-            <div className="grid h-[135vh] grid-cols-2 grid-rows-3 gap-7">
+            <div id="blades" className="grid h-[135vh] grid-cols-2 grid-rows-3 gap-7">
                 <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
                     <BentoCard
                     src="videos/spyfamintro.mp4"

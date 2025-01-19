@@ -39,7 +39,7 @@ const Contact = () => {
                 </p>
 
                 <p className="special-font mt-10 w-full font-zentry text-5xl leading-[0.9] md:text-[6rem]">
-                    Let's em<b>a</b>rk on <br/> Anya's <br/> jo<b>u</b>ney t<b>o</b>gether
+                    Let's g<b>o</b> on <br/> Anya's jo<b>ur</b>ney <br/> t<b>o</b>gether
                 </p>
 
                 <Button title="contact us" containerClass="mt-10 cursor-pointer"/>

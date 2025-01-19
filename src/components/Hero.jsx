@@ -163,8 +163,14 @@ const Hero = () => {
 
                     <p className ="mb-5 max-w-64 font-robert-regular text-blue-100">Enter the world of<br />The Forger Family</p>
             
-                    <Button id="watch-trailer" title="Watch Trailer" leftIcon={<TiLocationArrow/>} containerClass="!bg-yellow-300 flex-center gap-1"/>
-                </div>
+                    <a href="https://www.youtube.com/watch?v=m5TxWbtQ7qU" target="_blank" rel="noopener noreferrer">
+                  <Button 
+                    id="watch-trailer" 
+                    title="Watch Trailer" 
+                    leftIcon={<TiLocationArrow />} 
+                    containerClass="!bg-yellow-300 flex-center gap-1"
+                  />
+</a>                </div>
             </div>
         </div>
 
