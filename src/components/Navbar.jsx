@@ -5,7 +5,6 @@ import {useWindowScroll} from 'react-use';
 import gsap from "gsap";
 
 
-
 const Navbar = () => {
     const navContainerRef = useRef(null)
 
@@ -77,7 +76,6 @@ const Navbar = () => {
                         title="Products"
                         rightIcon={<TiLocationArrow/>}
                         containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
-                    
                     />
                 </div>  
                 <div className="flex h-full items-center">
